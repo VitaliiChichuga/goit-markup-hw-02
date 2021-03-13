@@ -13,6 +13,12 @@
 .list {
   list-style: none;
 }
+
+.link,
+.logo {
+  text-decoration: none;
+}
+
 body {
   background-color: var(--primery-background-color);
   color: var(--primery-text-color);
@@ -48,10 +54,31 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+/* class contacts list */
+.contacts-header .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+/* скрытый заголовок h1 */
+.hidden-title {
+  display: none;
+}
 
 /* list список */
 /* button */
+
 .button-list {
+  cursor: pointer;
   color: var(--primery-text-color);
   background-color: var(--button-background-color);
   font-family: inherit Roboto;
@@ -60,6 +87,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
+
 .list .button-list:hover,
 .list .button-list:focus {
   color: var(--button-navigation-color);
@@ -89,6 +117,8 @@ footer {
   background-color: var(--secondary-background-color);
   color: var(--footer-adress-color);
 }
+
+/* футер логотип */
 .footer-logo {
   color: var(--footer-adress-color);
   font-family: Raleway, sans-serif;
@@ -98,10 +128,46 @@ footer {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-
+/* адрес */
 .adress {
   font-family: Roboto;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
+}
+
+/* контакты */
+.contacts .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* hero */
+.hero h1 {
+  color: var(--primery-background-color);
+  background-color: var(--secondary-background-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
