@@ -1,0 +1,106 @@
+:root {
+  --primery-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primery-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --footer-adress-color: #ffffff;
+  --button-background-color: #f5f4fa;
+  --button-navigation-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+body {
+  background-color: var(--primery-background-color);
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+/* логотип logo */
+.logo {
+  color: var(--primery-text-color);
+  font-family: Raleway, sans-serif;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* Web */
+.accent {
+  color: var(--accent-color);
+}
+
+/* class="site-nav list */
+.site-nav a {
+  color: var(--primery-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* list список */
+/* button */
+.button-list {
+  color: var(--primery-text-color);
+  background-color: var(--button-background-color);
+  font-family: inherit Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.list .button-list:hover,
+.list .button-list:focus {
+  color: var(--button-navigation-color);
+  background-color: var(--accent-color);
+}
+
+/* list h2 */
+.list h2 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/* list title (p) */
+.list p {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+footer {
+  background-color: var(--secondary-background-color);
+  color: var(--footer-adress-color);
+}
+.footer-logo {
+  color: var(--footer-adress-color);
+  font-family: Raleway, sans-serif;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.adress {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+}
