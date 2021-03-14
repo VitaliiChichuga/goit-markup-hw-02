@@ -162,6 +162,7 @@ footer {
 }
 /* кнопка заказать услугу */
 .button {
+  cursor: pointer;
   color: var(--button-navigation-color);
   background-color: var(--accent-color);
   font-family: Roboto;
