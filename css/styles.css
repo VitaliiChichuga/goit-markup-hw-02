@@ -10,7 +10,7 @@
   --button-navigation-color: #ffffff;
 }
 
-.list {
+.list, .list-card {
   list-style: none;
 }
 
@@ -82,7 +82,7 @@ body {
   cursor: pointer;
   color: var(--primery-text-color);
   background-color: var(--button-background-color);
-  font-family: inherit Roboto;
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -104,8 +104,8 @@ body {
   letter-spacing: 0.06em;
 }
 
-/* list title (p) */
-.list p {
+/* list title card (p) */
+.list-card p {
   color: var(--secondary-text-color);
   font-family: Roboto;
   font-size: 16px;
@@ -130,11 +130,13 @@ footer {
   letter-spacing: 0.03em;
 }
 /* адрес */
-.adress {
+address {
   font-family: Roboto;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
+  color: var(--footer-adress-color);
 }
 
 /* контакты */
@@ -202,15 +204,17 @@ h2 {
 }
 
 /* наша команда */
-h3 {
+.our-team .list h3 {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-transform: capitalize
   color: var(--primery-text-color);
+
 }
-p {
+.our-team p {
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.19px;
